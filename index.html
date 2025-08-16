@@ -9,8 +9,8 @@
       margin: 0;
       padding: 0;
       font-family: "Tahoma", sans-serif;
-      background: #111;
-      color: #0ff;
+      background: #f5f5f5; /* لون خلفية هادئ */
+      color: #333; /* لون نص مريح */
       display: flex;
       justify-content: center;
       align-items: center;
@@ -21,8 +21,7 @@
     h1 {
       font-size: 2em;
       text-align: center;
-      color: #0ff;
-      text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+      color: #2c3e50; /* لون هادئ للرأسية */
       margin-bottom: 30px;
     }
 
@@ -33,24 +32,25 @@
       margin: 15px auto;
       padding: 15px;
       text-align: center;
-      background: #1a1a40;
-      color: #0ff;
+      background: #dcdde1; /* لون زر هادئ */
+      color: #2c3e50; /* لون نص الزر */
       font-size: 1.2em;
       border-radius: 10px;
       text-decoration: none;
-      box-shadow: 0 0 10px #0ff, 0 0 20px #0ff inset;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
     }
 
     .btn:hover {
       transform: scale(1.05);
-      box-shadow: 0 0 20px #0ff, 0 0 40px #0ff inset;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      background: #cfd1d5; /* تأثير هادئ عند المرور */
     }
 
     footer {
       margin-top: 40px;
       font-size: 0.9em;
-      color: #888;
+      color: #555; /* لون نص الفوتر */
     }
   </style>
 </head>
@@ -66,4 +66,5 @@
 
   <footer>© 2025 مدونتي - جميع الحقوق محفوظة</footer>
 
-</body></html>
+</body>
+</html>
